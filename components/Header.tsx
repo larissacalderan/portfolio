@@ -46,8 +46,8 @@ export default function Header() {
               className="relative h-10 w-10 cursor-pointer overflow-hidden rounded-full border border-white/10 transition-all duration-300 hover:scale-105 hover:border-white"
             >
               <Image
-                src="/me.png"
-                alt="Caio Bittencourt"
+                src="/me.jpg"
+                alt="Larissa Calderan"
                 fill
                 className="object-cover object-top"
               />
@@ -73,12 +73,6 @@ export default function Header() {
               className="text-sm text-gray-400 transition-colors hover:text-white"
             >
               Tecnologias
-            </Link>
-            <Link
-              href="/projects"
-              className="text-sm text-gray-400 transition-colors hover:text-white"
-            >
-              Projetos
             </Link>
           </nav>
 
@@ -136,13 +130,6 @@ export default function Header() {
                 >
                   Tecnologias
                 </Link>
-                <Link
-                  href="/projects"
-                  onClick={() => setIsMenuOpen(false)}
-                  className="text-lg text-gray-400 transition-colors hover:text-white"
-                >
-                  Projetos
-                </Link>
               </nav>
             </motion.div>
           </motion.div>
@@ -178,7 +165,7 @@ export default function Header() {
               {/* Photo */}
               <div className="relative h-44 w-44 overflow-hidden rounded-full border border-white/10 shadow-2xl sm:h-56 sm:w-56">
                 <Image
-                  src="/me.png"
+                  src="/me.jpg"
                   alt={SITE_CONFIG.name}
                   fill
                   className="object-cover object-top"

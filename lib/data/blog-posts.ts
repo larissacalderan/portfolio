@@ -20,7 +20,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Stack única reduz atrito, alinha contratos e corta ruído operacional",
     image: "/blog/babelfish.gif",
     date: "2026-04-22",
-    author: "Caio Bittencourt",
+    author: "Larissa Calderan",
     readTime: "6 min",
     tags: ["JavaScript", "TypeScript", "Node.js", "Arquitetura", "Opinião"],
     content: `
@@ -78,7 +78,7 @@ Front e back no mesmo idioma não te transforma em gênio. Só corta ruído, red
     description: "IA acelera entrega, mas fragiliza entendimento",
     image: "/blog/ironman.gif",
     date: "2026-03-05",
-    author: "Caio Bittencourt",
+    author: "Larissa Calderan",
     readTime: "5 min",
     tags: ["IA", "Carreira", "Opinião"],
     content: `
@@ -113,7 +113,7 @@ Talvez eu releia isso daqui a alguns anos e ache drama.
     description: "Ego pesa e mercado cobra execução",
     image: "/blog/engenheiro.jpg",
     date: "2026-03-01",
-    author: "Caio Bittencourt",
+    author: "Larissa Calderan",
     readTime: "4 min",
     tags: ["Carreira", "Faculdade", "Opinião"],
     content: `
@@ -156,7 +156,7 @@ Se eu for honesto comigo mesmo, vou terminar ADS e deixar meu trabalho falar por
     description: "Diário técnico, sem promessa de didática",
     image: "/blog/eminem.gif",
     date: "2026-02-25",
-    author: "Caio Bittencourt",
+    author: "Larissa Calderan",
     readTime: "3 min",
     tags: ["Pessoal", "Meta", "Introdução"],
     content: `

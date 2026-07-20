@@ -31,13 +31,14 @@ export const TECHNOLOGY_CATEGORIES: TechnologyCategory[] = [
       { name: "Node.js", icon: "nodejs.png" },
       { name: "Express", icon: "expressjs.png" },
       { name: "NestJS", icon: "nestjs.svg" },
+      { name: "Python", icon: "python.png" },
+      { name: "Java", icon: "javaa.png" },
     ],
   },
   {
     title: "Banco de Dados",
     description: "SGBDs e ORMs",
     technologies: [
-      { name: "PostgreSQL", icon: "postgresql.svg" },
       { name: "MongoDB", icon: "mongodb.svg" },
       { name: "Prisma", icon: "prisma.png" },
     ],
@@ -48,9 +49,8 @@ export const TECHNOLOGY_CATEGORIES: TechnologyCategory[] = [
     technologies: [
       { name: "Git", icon: "git.svg" },
       { name: "GitHub", icon: "githubdark.svg" },
-      { name: "Jest", icon: "jest.svg" },
       { name: "Docker", icon: "docker.svg" },
-      { name: "AWS", icon: "aws.svg" },
+      
     ],
   },
 ];

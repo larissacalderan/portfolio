@@ -10,14 +10,13 @@ export const TECHNOLOGIES = [
   "nodejs.png",
   "expressjs.png",
   "nestjs.svg",
-  "postgresql.svg",
   "mongodb.svg",
   "prisma.png",
+  "python.png",
+  "javaa.png",
   "git.svg",
   "githubdark.svg",
-  "jest.svg",
   "docker.svg",
-  "aws.svg",
 ] as const;
 
 // Icons that need invert filter on dark background
@@ -38,10 +37,10 @@ export const formatTechName = (filename: string): string => {
     typescript: "TypeScript",
     tailwindcss: "Tailwind CSS",
     mongodb: "MongoDB",
-    postgresql: "PostgreSQL",
     html: "HTML",
     css: "CSS",
-    jest: "Jest",
+    python: "Python",
+    javaa: "Java",
   };
 
   if (exceptions[name]) return exceptions[name];

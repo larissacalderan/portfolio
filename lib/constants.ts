@@ -1,26 +1,27 @@
 // Site configuration
 export const SITE_CONFIG = {
-  name: "Caio Lucas Bittencourt",
-  shortName: "Caio Bittencourt",
-  description: "Desenvolvedor Full Stack",
+  name: "Larissa Calderan",
+  shortName: "Larissa Calderan",
+  description:
+    "Desenvolvedora Full-Stack em formação, com foco no ecossistema JavaScript/TypeScript. Tenho desenvolvido projetos utilizando React, Next.js, TypeScript, Tailwind CSS e outras tecnologias modernas, buscando transformar ideias em aplicações funcionais, responsivas e bem estruturadas.\n\nGosto de entender os desafios de cada projeto e criar soluções intuitivas, organizadas e de fácil manutenção. Estou sempre aprendendo novas tecnologias, aprimorando minhas habilidades e seguindo boas práticas de desenvolvimento para evoluir constantemente como profissional.",
   email: "caiolucasbittencourt@hotmail.com",
 } as const;
 
 // Social media links
 export const SOCIAL_LINKS = {
-  linkedin: "https://www.linkedin.com/in/caiolucasbittencourt/",
-  github: "https://github.com/caiolucasbittencourt",
-  discord: "https://discord.gg/programador",
-  whatsapp: "https://wa.me/5599996513294",
+  instagram: "https://www.instagram.com/larissacalderan/",
+  github: "https://github.com/larissacalderan",
+  discord: "https://discord.gg/NNPKUGaBKN",
+  whatsapp: "https://wa.me/5543996767663",
 } as const;
 
 // Social cards for Hero section
 export const SOCIAL_CARDS: SocialCard[] = [
   {
-    name: "LinkedIn",
-    url: SOCIAL_LINKS.linkedin,
-    icon: "/linkedin.png",
-    color: "#0077b5",
+    name: "Instagram",
+    url: SOCIAL_LINKS.instagram,
+    icon: "/insta.png",
+    color: "#E1306C",
   },
   {
     name: "GitHub",
