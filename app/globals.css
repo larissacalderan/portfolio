@@ -17,6 +17,11 @@
   --foreground: #d1d5db;
 }
 
+[data-theme="light"] {
+  --background: #ffffff;
+  --foreground: #111827;
+}
+
 body {
   color: var(--foreground);
   background-color: var(--background);
@@ -125,4 +130,84 @@ body {
       font-size: 16px; /* desktop */
     }
   }
+}
+
+/* Ajustes para tema claro: inverter utilitários que usam "white" para versões escuras */
+[data-theme="light"] {
+  --background: #ffffff;
+  --foreground: #111827;
+}
+
+[data-theme="light"] .text-white {
+  color: #000000 !important;
+}
+
+[data-theme="light"] .hover\:text-white:hover {
+  color: #000000 !important;
+}
+
+[data-theme="light"] .group:hover .group-hover\:text-white {
+  color: #000000 !important;
+}
+
+[data-theme="light"] .border-white\/10 {
+  border-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+[data-theme="light"] .border-white\/20 {
+  border-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+[data-theme="light"] .border-white\/40 {
+  border-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+[data-theme="light"] .bg-white\/5 {
+  background-color: rgba(0, 0, 0, 0.05) !important;
+}
+
+[data-theme="light"] .bg-white\/2 {
+  background-color: rgba(0, 0, 0, 0.02) !important;
+}
+
+[data-theme="light"] .bg-black\/20 {
+  background-color: rgba(0, 0, 0, 0.08) !important;
+}
+
+[data-theme="light"] .text-gray-300 {
+  color: #111827 !important;
+}
+
+[data-theme="light"] .text-gray-400 {
+  color: #374151 !important;
+}
+
+[data-theme="light"] ::selection {
+  background-color: rgba(0,0,0,0.15) !important;
+  color: #000000 !important;
+}
+
+/* Catch-all para classes que contenham 'white' e forçar versão preta no tema claro */
+[data-theme="light"] [class*="text-white"] {
+  color: #000000 !important;
+}
+
+[data-theme="light"] [class*="bg-white"] {
+  background-color: #000000 !important;
+}
+
+[data-theme="light"] [class*="border-white"] {
+  border-color: rgba(0,0,0,0.12) !important;
+}
+
+[data-theme="light"] [class*="fill-white"] {
+  fill: #000000 !important;
+}
+
+[data-theme="light"] [class*="stroke-white"] {
+  stroke: #000000 !important;
+}
+
+[data-theme="light"] [class*="placeholder-white"]::placeholder {
+  color: #000000 !important;
 }

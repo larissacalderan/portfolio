@@ -17,11 +17,11 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const setInitialTheme = `(function(){try{var t=localStorage.getItem('theme'); if(!t){t = 'dark';} document.documentElement.setAttribute('data-theme', t);}catch(e){} })()`;
   return (
-    <html lang="pt-br" className="!scroll-smooth">
-      <body
-        className={`${inter.className} overflow-x-hidden bg-[#050505] text-gray-300 antialiased`}
-      >
+    <html lang="pt-br" data-theme="dark" className="!scroll-smooth">
+      <body className={`${inter.className} overflow-x-hidden antialiased`}>
+        <script dangerouslySetInnerHTML={{ __html: setInitialTheme }} />
         {children}
       </body>
     </html>

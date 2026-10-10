@@ -4,14 +4,14 @@ export const SITE_CONFIG = {
   shortName: "Larissa Calderan",
   description:
     "Desenvolvedora Full-Stack em formação, com foco no ecossistema JavaScript/TypeScript. Tenho desenvolvido projetos utilizando React, Next.js, TypeScript, Tailwind CSS e outras tecnologias modernas, buscando transformar ideias em aplicações funcionais, responsivas e bem estruturadas.\n\nGosto de entender os desafios de cada projeto e criar soluções intuitivas, organizadas e de fácil manutenção. Estou sempre aprendendo novas tecnologias, aprimorando minhas habilidades e seguindo boas práticas de desenvolvimento para evoluir constantemente como profissional.",
-  email: "caiolucasbittencourt@hotmail.com",
+  email: "larissacalderan@gmail.com",
 } as const;
 
 // Social media links
 export const SOCIAL_LINKS = {
   instagram: "https://www.instagram.com/larissacalderan/",
   github: "https://github.com/larissacalderan",
-  discord: "https://discord.gg/NNPKUGaBKN",
+  discord: "https://discord.gg/zKZn94BgBY",
   whatsapp: "https://wa.me/5543996767663",
 } as const;
 

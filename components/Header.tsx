@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { X, Menu } from "lucide-react";
+import ThemeToggle from "./ThemeToggle";
 import { SITE_CONFIG } from "@/lib/constants";
 
 export default function Header() {
@@ -76,6 +77,10 @@ export default function Header() {
             </Link>
           </nav>
 
+          <div className="hidden items-center gap-3 md:flex">
+            <ThemeToggle />
+          </div>
+
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMenuOpen(true)}
@@ -112,6 +117,9 @@ export default function Header() {
                 >
                   <X className="h-5 w-5" />
                 </button>
+                <div className="ml-3">
+                  <ThemeToggle />
+                </div>
               </div>
 
               {/* Menu Links */}
